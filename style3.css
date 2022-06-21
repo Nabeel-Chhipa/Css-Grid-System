@@ -1,0 +1,41 @@
+.wrapper > div {
+    background: #eee;
+    padding: 1em;
+}
+
+.wrapper > div:nth-child(odd) {
+    background: #ddd;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    gap: 1em;
+    /* justify-items: stretch; */
+    /* align-items: center; */
+}
+
+.box1 {
+    align-self: start;
+}
+
+.box2 {
+    align-self: end;
+}
+
+.box3 {
+    align-self: start;
+}
+
+.box4 {
+
+}
+
+.box5 {
+
+}
+
+.box6 {
+
+}
